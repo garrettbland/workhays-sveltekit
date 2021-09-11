@@ -5,6 +5,11 @@
      * reset is used
      */
     import '../tailwind.css'
+
+    import Navbar from '../components/Navbar.svelte'
 </script>
 
-<slot />
+<Navbar />
+<div class="container mx-auto px-4">
+    <slot />
+</div>
