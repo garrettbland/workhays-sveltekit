@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /** Custom styles go below */
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}

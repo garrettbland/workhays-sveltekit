@@ -3,7 +3,8 @@
     let menu_is_open = false
 </script>
 
-<div class="bg-gray-100">
+<!-- Sign In & Registration Bar -->
+<div class="bg-gray-100 border-b border-gray-200">
     <div
         class="container mx-auto px-5 py-1 text-sm flex flex-row justify-end text-black divide-x divide-gray-200"
     >
@@ -36,17 +37,17 @@
             >
                 <a
                     href="/"
-                    class="px-4 py-4 border-b-2 border-transparent hover:border-blue-400"
+                    class="px-4 py-4 border-b-2 border-transparent hover:border-indigo-600"
                     >Jobs</a
                 >
                 <a
                     href="/"
-                    class="px-4 py-4 border-b-2 border-transparent hover:border-blue-400"
+                    class="px-4 py-4 border-b-2 border-transparent hover:border-indigo-600"
                     >Events</a
                 >
                 <a
                     href="/"
-                    class="px-4 py-4 border-b-2 border-transparent hover:border-blue-400"
+                    class="px-4 py-4 border-b-2 border-transparent hover:border-indigo-600"
                     >Contact</a
                 >
             </div>
