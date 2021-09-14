@@ -1,17 +1,17 @@
-import path from 'path'
+import { resolve } from 'path'
 import adapter from '@sveltejs/adapter-netlify'
 
 const config = {
     kit: {
+        adapter: adapter(),
+        target: '#svelte',
         vite: {
             resolve: {
                 alias: {
-                    $components: path.resolve('src/components/'),
+                    $components: resolve('./src/components'),
                 },
             },
         },
-        adapter: adapter(),
-        target: '#svelte',
     },
 }
 
