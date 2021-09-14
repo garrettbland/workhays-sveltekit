@@ -3,8 +3,7 @@
         "baseUrl": ".",
         "paths": {
             "$lib": ["src/lib"],
-            "$lib/*": ["src/lib/*"],
-            "@components/*": ["src/components/*"]
+            "$lib/*": ["src/lib/*"]
         }
     },
     "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
