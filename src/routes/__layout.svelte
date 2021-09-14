@@ -6,7 +6,7 @@
      */
     import '../tailwind.css'
 
-    import Navbar from '$lib/components/navbar.svelte'
+    import Navbar from '$components/navbar.svelte'
 </script>
 
 <Navbar />
