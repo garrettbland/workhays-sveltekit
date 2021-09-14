@@ -115,7 +115,7 @@
     <!-- Mobile Menu -->
     <div
         transition:fly={{ x: -400, duration: 200 }}
-        class="fixed z-30 top-0 left-0 w-full max-w-xs bg-white shadow h-screen overflow-y-scroll"
+        class="fixed z-30 top-0 left-0 w-3/5 max-w-xs bg-white shadow h-screen overflow-y-scroll"
     >
         Menu
     </div>

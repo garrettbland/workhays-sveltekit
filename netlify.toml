@@ -1,4 +1,15 @@
+[functions]
+  directory = "src/api"
+
 [build]
   command = "npm run build"
-  publish = "build/"
-  functions = "functions/"
+  publish = "build"
+  NODE_ENV = "16.9.1"
+
+[dev]
+  command = "npm run dev"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
