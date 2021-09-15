@@ -7,9 +7,11 @@
     import '../tailwind.css'
 
     import Navbar from '$components/Navbar.svelte'
+    import Footer from '$components/Footer.svelte'
 </script>
 
 <Navbar />
-<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto px-4 pb-14">
     <slot />
 </div>
+<Footer />

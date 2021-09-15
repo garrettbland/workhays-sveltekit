@@ -6,3 +6,7 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
+
+footer a:hover {
+    @apply underline;
+}

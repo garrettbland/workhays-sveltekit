@@ -6,12 +6,12 @@
 <!-- Sign In & Registration Bar -->
 <div class="bg-gray-100 border-b border-gray-200">
     <div
-        class="container mx-auto px-5 py-1 text-sm flex flex-row justify-end text-black divide-x divide-gray-200"
+        class="max-w-4xl mx-auto px-5 py-1 text-sm flex flex-row justify-end text-black divide-x divide-gray-200"
     >
-        <a href="/" class="antialiased hover:underline px-4"
+        <a href="/register" class="antialiased hover:underline px-4"
             >Employer Registration</a
         >
-        <a href="/" class="antialiased hover:underline px-4"
+        <a href="/sign-in" class="antialiased hover:underline px-4"
             >Sign In</a
         >
     </div>
@@ -21,7 +21,7 @@
     class="sticky top-0 left-0 z-10 w-full border-b-2 border-gray-200 bg-white bg-opacity-60 backdrop-filter backdrop-blur-md"
 >
     <div
-        class="container mx-auto flex flex-row items-center justify-between px-5"
+        class="max-w-4xl mx-auto flex flex-row items-center justify-between px-5"
     >
         <div class="flex flex-row space-x-12">
             <a href="/" class="flex flex-row space-x-4 items-center">
@@ -41,12 +41,12 @@
                     >Jobs</a
                 >
                 <a
-                    href="/"
+                    href="/events"
                     class="px-4 py-4 border-b-2 border-transparent hover:border-indigo-600"
                     >Events</a
                 >
                 <a
-                    href="/"
+                    href="/contact"
                     class="px-4 py-4 border-b-2 border-transparent hover:border-indigo-600"
                     >Contact</a
                 >
