@@ -17,9 +17,10 @@
         method="POST"
         action="/success"
         data-netlify="true"
-        data-netlify-recaptcha="true"
+        netlify-honeypot="company"
     >
         <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="company" hidden />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
             <input
                 class=""
