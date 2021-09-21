@@ -15,6 +15,7 @@
         data-netlify="true"
         data-netlify-recaptcha="true"
     >
+        <input type="hidden" name="form-name" value="contact" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
             <input
                 class=""
@@ -47,7 +48,6 @@
             />
         </div>
         <div class="space-y-4">
-            <div data-netlify-recaptcha="true" />
             <button
                 type="submit"
                 class="bg-indigo-600 hover:bg-indigo-700 text-white rounded px-5 py-2 transition-all"
