@@ -10,3 +10,9 @@
 footer a:hover {
     @apply underline;
 }
+
+input[type='text'],
+input[type='email'],
+textarea {
+    @apply rounded;
+}
